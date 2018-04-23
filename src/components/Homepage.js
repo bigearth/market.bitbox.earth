@@ -10,7 +10,7 @@ import "../styles/homepage.scss";
 
 class Homepage extends Component {
   componentDidMount() {
-    document.title = "BITBOX by EARTH - Supercharge your Bitcoin Cash workflow";
+    document.title = "BITBOX Market - A marketplace of apps build w/ BITBOX";
   }
 
   render() {
@@ -26,9 +26,9 @@ class Homepage extends Component {
       <div>
         <div className="splash-container">
           <div className="splash">
-            <h1 className="splash-head">BITBOX Cloud</h1>
+            <h1 className="splash-head">BITBOX Market</h1>
             <p className="splash-subhead">
-              Digital Ocean meets Heroku for Bitcoin Cash.
+              A marketplace of apps build w/ BITBOX
             </p>
           </div>
         </div>
@@ -40,19 +40,19 @@ class Homepage extends Component {
                   <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <p className="header-icon"><i className="fa fa-cube" /></p>
                     <h3 className="content-subhead">
-                      Full Node
+                      BCH Centric
                     </h3>
                     <p>
-                      Spin up/down a full BCH node in any flavor (ABC, BU, XT, Flowee) from a GUI or API
+                      All BCH. All the time.
                     </p>
                   </div>
                   <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
                     <p className="header-icon"><i className="fa fa-eye" /></p>
                     <h3 className="content-subhead">
-                      Add Ons
+                      Built w/ BITBOX
                     </h3>
                     <p>
-                      Ecoysystem of add on build w/ BITBOX
+                      Marketplace of apps built w/ BITBOX 
                     </p>
                   </div>
               </div>

@@ -55,7 +55,7 @@ class App extends Component {
           <div className="header">
             <div className="home-menu main-menu pure-menu pure-menu-horizontal pure-menu-fixed">
               <Link className="pure-menu-heading header-logo" to="/">
-                <img src={'/assets/logo.png'} /> <br />BitBox
+                <img src='https://www.bitbox.earth/assets/logo.png' /> <br />BitBox
               </Link>
             </div>
           </div>
