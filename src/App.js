@@ -52,7 +52,7 @@ class App extends Component {
         </Link>
 
         <ul className="pure-menu-list">
-          <li className="pure-menu-item"><a href="https://bigearth.github.io/bitblog/" className="pure-menu-link">Blog</a></li>
+          <li className="pure-menu-item"><a href="https://www.bitbox.earth" className="pure-menu-link">Docs</a></li>
           <li className="pure-menu-item"><a href="https://cloud.bitbox.earth" className="pure-menu-link">Cloud</a></li>
         </ul>
       </div>
