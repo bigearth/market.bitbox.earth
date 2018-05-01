@@ -147,12 +147,12 @@ class App extends Component {
       </div>
 
       <div className="photo-box pure-u-1 pure-u-md-1-3">
-        <a href="https://rest.bitbox.earth/v1/swagger">
+        <a href="https://rest.bitbox.earth">
           <img src="assets/screenshot8.png" alt="BITBOX" />
         </a>
 
         <aside className="photo-box-caption">
-          <span>by <a href="https://rest.bitbox.earth/v1/swagger">rest.bitbox.earth</a></span>
+          <span>by <a href="https://rest.bitbox.earth">rest.bitbox.earth</a></span>
         </aside>
       </div>
 
