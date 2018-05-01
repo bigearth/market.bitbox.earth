@@ -37,11 +37,11 @@ module.exports = {
     }]
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   title: 'BITBOX',
-    //   template: 'src/index.html',
-    //   filename: 'index.html'
-    // }),
+    new HtmlWebpackPlugin({
+      title: 'BITBOX',
+      template: 'src/index.html',
+      filename: 'index.html'
+    }),
     new CopyWebpackPlugin([
       {
         from: 'src/assets/',
