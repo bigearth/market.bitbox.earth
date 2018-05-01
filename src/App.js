@@ -147,22 +147,22 @@ class App extends Component {
       </div>
 
       <div className="photo-box pure-u-1 pure-u-md-1-3">
-        <a href="https://rest.bitbox.earth">
+        <a href="https://rest.bitbox.earth/v1/swagger">
           <img src="assets/screenshot8.png" alt="BITBOX" />
         </a>
 
         <aside className="photo-box-caption">
-          <span>by <a href="https://www.bitbox.earth">bitbox.earth</a></span>
+          <span>by <a href="https://rest.bitbox.earth/v1/swagger">rest.bitbox.earth</a></span>
         </aside>
       </div>
 
-      <div className="photo-box pure-u-1 pure-u-md-1-3">
-        <a href="https://rest.bitbox.earth">
+      <div className="photo-box pure-u-1 pure-u-md-2-3">
+        <a href="https://rest.bitbox.earth/v1/blockchain/getTxOut/d94b98cf5b192f15abaac6201a407f500ce2cba23d4cbb79c712e3aa4e1bb7cf/0">
           <img src="assets/screenshot9.png" alt="BITBOX" />
         </a>
 
         <aside className="photo-box-caption">
-          <span>by <a href="https://www.bitbox.earth">bitbox.earth</a></span>
+          <span>by <a href="https://rest.bitbox.earth/v1/blockchain/getTxOut/d94b98cf5b192f15abaac6201a407f500ce2cba23d4cbb79c712e3aa4e1bb7cf/0">rest.bitbox.earth</a></span>
         </aside>
       </div>
     </div>
