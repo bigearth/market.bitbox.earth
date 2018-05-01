@@ -162,7 +162,7 @@ class App extends Component {
         </a>
 
         <aside className="photo-box-caption">
-          <span>by <a href="https://rest.bitbox.earth/v1/blockchain/getTxOut/d94b98cf5b192f15abaac6201a407f500ce2cba23d4cbb79c712e3aa4e1bb7cf/0">RESTh</a></span>
+          <span>by <a href="https://rest.bitbox.earth/v1/blockchain/getTxOut/d94b98cf5b192f15abaac6201a407f500ce2cba23d4cbb79c712e3aa4e1bb7cf/0">REST</a></span>
         </aside>
       </div>
     </div>
