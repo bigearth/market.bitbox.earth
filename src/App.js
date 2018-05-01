@@ -145,6 +145,26 @@ class App extends Component {
           <span>by <a href="https://www.bitbox.earth">bitbox.earth</a></span>
         </aside>
       </div>
+
+      <div className="photo-box pure-u-1 pure-u-md-1-3">
+        <a href="https://rest.bitbox.earth">
+          <img src="assets/screenshot8.png" alt="BITBOX" />
+        </a>
+
+        <aside className="photo-box-caption">
+          <span>by <a href="https://www.bitbox.earth">bitbox.earth</a></span>
+        </aside>
+      </div>
+
+      <div className="photo-box pure-u-1 pure-u-md-1-3">
+        <a href="https://rest.bitbox.earth">
+          <img src="assets/screenshot9.png" alt="BITBOX" />
+        </a>
+
+        <aside className="photo-box-caption">
+          <span>by <a href="https://www.bitbox.earth">bitbox.earth</a></span>
+        </aside>
+      </div>
     </div>
 
     <div className="footer l-box">
