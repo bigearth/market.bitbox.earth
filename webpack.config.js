@@ -1,6 +1,6 @@
 let path = require('path');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
-// const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 
 module.exports = {
@@ -26,8 +26,8 @@ module.exports = {
         }, {
           loader: 'css-loader',
           options: {
-            // modules: true,
-            // localIdentName: '[name]'
+            modules: true,
+            localIdentName: '[name]'
             // localIdentName: '[path][name]__[local]--[hash:base64:5]'
           }
         }, {
@@ -41,6 +41,13 @@ module.exports = {
       title: 'BITBOX',
       template: 'src/index.html',
       filename: 'index.html'
-    })
+    }),
+    new CopyWebpackPlugin([
+      {
+        from: 'src/assets/',
+        to: './assets/',
+        toType: 'dir'
+      }
+    ])
   ]
 };
