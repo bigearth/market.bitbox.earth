@@ -1,6 +1,6 @@
 {
   "name": "BITBOX",
-  "version": "0.3.5",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -31,7 +31,7 @@
     "start:dev": "webpack-dev-server --content-base build",
     "start": "webpack && node server.js",
     "build": "webpack",
-    "test": "react-scripts test --env=jsdom",
+    "test": "ls",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
