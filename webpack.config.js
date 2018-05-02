@@ -26,8 +26,8 @@ module.exports = {
         }, {
           loader: 'css-loader',
           options: {
-            modules: true,
-            localIdentName: '[name]'
+            // modules: true,
+            // localIdentName: '[name]'
             // localIdentName: '[path][name]__[local]--[hash:base64:5]'
           }
         }, {
@@ -42,12 +42,10 @@ module.exports = {
       template: 'src/index.html',
       filename: 'index.html'
     }),
-    new CopyWebpackPlugin([
-      {
+    new CopyWebpackPlugin([{
         from: 'src/assets/',
         to: './assets/',
         toType: 'dir'
-      }
-    ])
+    }])
   ]
 };
