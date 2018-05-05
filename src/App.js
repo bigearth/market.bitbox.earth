@@ -77,12 +77,12 @@ class App extends Component {
       </div>
 
       <div className="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <a href="https://www.query.cash">
-          <img src="assets/query.cash.2.png" alt="query.cash" />
+        <a href="https://github.com/AKARI-B3/akaripay">
+          <img src="assets/akaripay.png" alt="AKARI-Pay" />
         </a>
 
         <aside className="photo-box-caption">
-          <span>by <a href="https://www.query.cash">query.cash</a></span>
+          <span>by <a href="https://github.com/AKARI-B3/akaripay">Akari</a></span>
         </aside>
       </div>
 
@@ -107,6 +107,16 @@ class App extends Component {
       </div>
 
       <div className="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+        <a href="https://www.query.cash">
+          <img src="assets/query.cash.2.png" alt="query.cash" />
+        </a>
+
+        <aside className="photo-box-caption">
+          <span>by <a href="https://www.query.cash">query.cash</a></span>
+        </aside>
+      </div>
+
+      <div className="photo-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
         <a href="https://www.bitbox.earth">
           <img src="assets/screenshot6.png" alt="BITBOX" />
         </a>
@@ -116,7 +126,7 @@ class App extends Component {
         </aside>
       </div>
 
-      <div className="photo-box photo-box-thin pure-u-1 pure-u-lg-2-3">
+      <div className="photo-box photo-box-thin pure-u-1 pure-u-lg-1-3">
         <a href="https://github.com/bigearth/bitbox-scaffold-node">
           <img src="assets/node.png" alt="nodejs" />
         </a>

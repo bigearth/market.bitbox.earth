@@ -26,8 +26,8 @@ module.exports = {
         }, {
           loader: 'css-loader',
           options: {
-            modules: true,
-            localIdentName: '[name]'
+            // modules: true,
+            // localIdentName: '[name]'
             // localIdentName: '[path][name]__[local]--[hash:base64:5]'
           }
         }, {
